@@ -1,21 +1,17 @@
-# cpp-bmi
+# cpp-whr
 
-BMI (Body Mass Index) ou conhecido como IMC (Índice de Massa Corporal) é reconhecido como um padrão internacional para avaliar o grau de sobrepeso e obesidade.
+O WHR (Waist-Hip-Ratio) é um outro indicador de saúde para determinar problemas de saúde.
 
-O IMC é calculado dividindo o peso (em kg) pela altura ao quadrado (em metros).
+No link [WHR Calculation](https://www.thecalculatorsite.com/articles/health/waist-to-hip-ratio.php) pode ser lido maiores detalhes a respeito do WHR.
 
-Estar no peso ideal é importante para aumentar a saúde, prevenindo doenças cardiovasculares e aumentar a qualidade de vida. 
+O cálculo é bem simples e deve-se usar somente uma fita métrica de costura.
 
-Assim, quem está abaixo do peso deve aumentar o volume muscular para aumentar de peso de forma saudável e quem está acima do peso, deve diminuir para ter uma qualidade de vida mais saudável.
+Faça um programa que leia os valores de cintura (*waist*) e quadril (*hip*), calcule o indicador e mostre ao usuário o valor calculado.
 
 ## Exemplos de valores
 
-* *Abaixo do peso* - Peso = 55, Altura = 1.73, IMC = 18.3768
-
-* *Normal* - Peso = 66, Altura = 1.73, IMC = 22.0522
-
-* *Sobrepeso* - Peso = 80, Altura = 1.73, IMC = 26.7299
-
-* *Obesidade 1* - Peso = 90, Altura = 1.73, IMC = 30.0712
-
-* *Obesidade 2* - Peso = 110, Altura = 1.73, IMC = 36.7536
+* Cintura = 92, Quadril = 112, WHR = 0.821429
+* Cintura = 112, Quadril = 92, WHR = 1.21739
+* Cintura = 92, Quadril = 93, WHR = 0.989247
+* Cintura = 80, Quadril = 110, WHR = 0.727273
+* Cintura = 90, Quadril = 110, WHR = 0.818182
